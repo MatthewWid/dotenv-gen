@@ -1,0 +1,7 @@
+{
+	"name": "dotenv-gen",
+	"version": "0.1.0",
+	"repository": "git@github.com:MatthewWid/dotenv-gen.git",
+	"author": "Matthew W. <matthew.widdi@gmail.com>",
+	"license": "MIT"
+}
