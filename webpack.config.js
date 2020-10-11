@@ -9,6 +9,14 @@ const config = {
 		path: path.join(BASEDIR, "./build"),
 		filename: "dotenv-gen.js",
 	},
+	module: {
+		rules: [
+			{
+				test: /\.ts$/,
+				loader: "ts-loader",
+			},
+		],
+	},
 	target: "node",
 	resolve: {
 		extensions: [".ts", ".js"],
